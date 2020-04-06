@@ -19,6 +19,10 @@ nav ul li {
 .apps_link {
   font-family: "Abel", sans-serif;
 }
+
+.Merriweather {
+  font-family: "Merriweather Sans", sans-serif;
+}
 a {
   text-decoration: none;
 }
@@ -74,7 +78,16 @@ a {
   display: grid;
   grid-template: 1fr 1fr / 2fr 1fr;
   grid-template-areas: "main sidet" "main sideb";
-  grid-gap: 20px;
+  grid-gap: 10px;
+}
+
+.main_article_gradient {
+  background: linear-gradient(45deg, rgba(255, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  height: 100%;
+  width: 100%;
 }
 
 .main_article_big {
@@ -87,10 +100,10 @@ a {
   flex-direction: column;
   justify-content: space-between;
   height: 47vh;
-  border: green 3px solid;
 }
 
-.main_article_big a {
+.main_article_big a,
+.main_article_side a {
   color: #fff;
 }
 
@@ -117,31 +130,49 @@ a {
   font-size: 14px;
 }
 
-.box_2 {
-  display: flex;
-  flex-direction: column;
-  height: auto;
-  margin: 20px 10px;
-}
-
 .main_article_link {
   align-self: flex-end;
   font-size: 2rem;
   font-weight: bolder;
-  font-family: "Merriweather Sans", sans-serif;
 }
 
 .main_article_footer,
 .main_article_footer a {
   color: rgba(255, 255, 255, 0.6);
 }
-.main_article_side{
-  border: solid 2px green;
+
+.box_2,
+.main_article_side_wrapper {
+  padding: 10px 20px;
+}
+
+.main_article_side {
+  display: flex;
+  justify-content: stretch;
+  font-size: 1.6rem;
+  color: #fff;
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/zoombombing-796x419.png)
+    center no-repeat;
+  background-size: cover;
+}
+
+.main_article_side_background {
+  background: rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  font-size: 1.6rem;
-  color: #fff;
-  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/zoombombing-796x419.png) center no-repeat;
+}
 
+.main_article_side_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.main_article_side_link {
+  margin: 5px 0;
+}
+
+.main_article_footer {
+  font-size: 1rem;
 }
