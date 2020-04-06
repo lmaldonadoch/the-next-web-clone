@@ -126,7 +126,7 @@ a {
 
 .main_article_link {
   align-self: flex-end;
-  font-size: 56px;
+  font-size: 2rem;
   font-weight: bolder;
   font-family: "Merriweather Sans", sans-serif;
 }
@@ -134,4 +134,14 @@ a {
 .main_article_footer,
 .main_article_footer a {
   color: rgba(255, 255, 255, 0.6);
+}
+.main_article_side{
+  border: solid 2px green;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: 1.6rem;
+  color: #fff;
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/zoombombing-796x419.png) center no-repeat;
+
 }
