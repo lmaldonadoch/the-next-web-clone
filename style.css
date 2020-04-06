@@ -10,33 +10,78 @@ nav ul li {
   display: inline-block;
 }
 
+.lato {
+  font-family: "Lato", sans-serif;
+}
+
+.abel, .navbar_links, .apps_link{
+  font-family: "Abel", sans-serif;
+}
+
 .top_navbar {
   background: #000;
   justify-content: space-between;
-  font-family: "Lato", sans-serif;
   padding: 8px 20px;
 }
-.top_navbar_links{
+.top_navbar_links {
   color: #c6c6c6;
   text-decoration: none;
   font-size: 13px;
   padding: 0 5px;
 }
-.business-icon{
+.business-icon {
   font-size: 8px;
 }
 .navbar {
-  justify-content: space-between;
+  display: block;
   background: #fdfdfd;
-  border: solid 2px rebeccapurple;
 }
-.navbar_list{
-  padding: 18px 20px;
+
+.navbar_container {
+  display: flex;
+  justify-content: space-between;
 }
+
+.navbar_list {
+  padding: 15px 20px;
+}
+
 .navbar_links {
   color: #c6c6c6;
-  font-family: "Abel", sans-serif;
   font-size: 14px;
   text-decoration: none;
   padding: 0 5px;
+}
+
+.search_button {
+  border: none;
+  border-left: rgb(198, 198, 198) solid 1px;
+  background: rgba(198, 198, 198, 0.1);
+  color: rgb(198, 198, 198);
+  width: 48px;
+}
+
+.navbar_stripe {
+  background: #ffdd33;
+  font-size: 15px;
+  padding: 10px 20px;
+}
+
+.header {
+  height
+  display: grid;
+  grid-template-areas: 1fr 1fr / 2fr 1fr;
+  grid-template: "main sidet" "main sideb";
+}
+
+.main_article_big {
+  background: #fff
+    url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F04%2FMSI-Creator-17.jpg&signature=e198fc68168bca765e815d35f9af0a15)
+    center center no-repeat;
+  background-size: contain;
+  grid-area: main;
+}
+
+.apps_link{
+  margin-top: 41vw;
 }
