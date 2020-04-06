@@ -1,0 +1,29 @@
+nav {
+  display: flex;
+}
+
+nav ul {
+  text-align: center;
+  padding: 18px 12px 0px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+.top_navbar {
+  background: #000;
+  justify-content: space-between;
+  font-family: "Lato", sans-serif;
+}
+
+.navbar {
+  justify-content: space-between;
+  background: #fdfdfd;
+}
+
+.navbar_links {
+  color: #c6c6c6;
+  font-family: "Abel", sans-serif;
+  font-size: 14px;
+}
