@@ -90,7 +90,7 @@ a {
   grid-template-areas: "main sidet" "main sideb";
   grid-gap: 10px;
   width: calc(100% - 10px);
-  margin: 5px auto;
+  margin: 5px auto 100px auto;
 }
 
 .main_article_gradient {
