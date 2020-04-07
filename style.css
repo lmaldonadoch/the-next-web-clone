@@ -10,7 +10,7 @@ nav ul li {
   display: inline-block;
 }
 
-.lato {
+body {
   font-family: "Lato", sans-serif;
 }
 
@@ -20,25 +20,35 @@ nav ul li {
   font-family: "Abel", sans-serif;
 }
 
+.main_article_link,
+.main_article_side_link {
+  font-family: "Open Sans", sans-serif;
+}
+
 .Merriweather {
   font-family: "Merriweather Sans", sans-serif;
 }
+
 a {
   text-decoration: none;
 }
+
 .top_navbar {
   background: #000;
   justify-content: space-between;
   padding: 8px 20px;
 }
+
 .top_navbar_links {
   color: #c6c6c6;
   font-size: 13px;
   padding: 0 5px;
 }
+
 .business-icon {
   font-size: 8px;
 }
+
 .navbar {
   display: block;
   background: #fdfdfd;
@@ -79,15 +89,26 @@ a {
   grid-template: 1fr 1fr / 2fr 1fr;
   grid-template-areas: "main sidet" "main sideb";
   grid-gap: 10px;
+  width: calc(100% - 10px);
+  margin: 5px auto;
 }
 
 .main_article_gradient {
-  background: linear-gradient(45deg, rgba(255, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  background: radial-gradient(
+    circle at top left,
+    rgba(255, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.8)
+  );
   display: flex;
-  flex-direction: column;
   justify-content: stretch;
   height: 100%;
   width: 100%;
+}
+
+.main_article_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .main_article_big {
@@ -102,6 +123,11 @@ a {
   height: 47vh;
 }
 
+.date {
+  color: #fff;
+  padding: 5px 20px 0 0;
+}
+
 .main_article_big a,
 .main_article_side a {
   color: #fff;
@@ -113,14 +139,13 @@ a {
 }
 
 .main_article_logo {
-  width: 33.33vw;
   align-self: flex-start;
-  height: 50px;
 }
 
-/* .main_article_logo_image {
-  border: #ffdd33 solid 3px;
-} */
+.main_article_logo_image {
+  width: 33vw;
+  margin: 20px 20px;
+}
 
 .date {
   margin-top: 10px;
@@ -132,13 +157,17 @@ a {
 
 .main_article_link {
   align-self: flex-end;
-  font-size: 2rem;
+  font-size: 3.3rem;
   font-weight: bolder;
+  margin: 5px 0;
 }
 
 .main_article_footer,
-.main_article_footer a {
+.main_article_footer a,
+.main_article_footer i {
   color: rgba(255, 255, 255, 0.6);
+  margin: 10px 0 1px;
+  font-size: 0.9rem;
 }
 
 .box_2,
@@ -171,8 +200,4 @@ a {
 
 .main_article_side_link {
   margin: 5px 0;
-}
-
-.main_article_footer {
-  font-size: 1rem;
 }
