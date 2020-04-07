@@ -21,7 +21,8 @@ body {
 }
 
 .main_article_link,
-.main_article_side_link {
+.main_article_side_link,
+..latest_news_title {
   font-family: "Open Sans", sans-serif;
 }
 
@@ -200,4 +201,24 @@ a {
 
 .main_article_side_link {
   margin: 5px 0;
+}
+
+.latest_news_wrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.latest_news_title {
+  color: red;
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-weight: bolder;
+}
+
+.latest_news_grid {
+  display: grid;
+  grid-template: repeat(auto-fill, minmax(112px, 135px)) / repeat(
+      auto-fill,
+      minmax(224px, 270px)
+    );
 }
