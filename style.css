@@ -374,7 +374,6 @@ a {
       minmax(332px, auto)
     );
   max-width: 1152px;
-  max-height: 646px;
   margin: 5px auto;
   grid-gap: 24px;
 }
