@@ -483,12 +483,15 @@ a {
   color: #555;
   font-size: 16px;
 }
-
+footer{
+  margin-top: 50px;
+}
 .top_footer {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   padding: 42px 0px 28px;
-  background: #555;
+  background: #131313;
   color: #aaa;
 }
 
@@ -501,12 +504,19 @@ a {
   width: 90%;
   display: flex;
   justify-content: center;
+  margin: 0 auto;
 }
 
 .footer_social_wrapper {
   border-radius: 50%;
   background: #333;
-  padding: 12px;
+  padding: 15px;
+}
+.footer_social_container{
+  margin: 0 0.5% 20px;
+}
+.footer_links_wrapper{
+  padding: 0 10px;
 }
 
 .low_footer {
