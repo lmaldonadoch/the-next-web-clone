@@ -229,7 +229,7 @@ a {
     );
   max-width: 1152px;
   max-height: 646px;
-  margin: 0 auto;
+  margin: 5px auto;
   grid-gap: 24px;
 }
 
@@ -265,6 +265,11 @@ a {
   font-size: 13px;
   color: #aaa;
   font-weight: 400;
+}
+
+.latest_funding {
+  max-height: 500px;
+  overflow: hidden;
 }
 
 .latest_funding_header {
@@ -312,37 +317,45 @@ a {
   width: 60px;
   height: 60px;
 }
-/* .latest_funding_item a{
-  color: #000;
-} */
-.item_title{
+
+.item_title {
   color: #fff;
-  
 }
-.font-18{
+
+.font-18 {
   font-size: 18px;
 }
-.black{
+
+.black {
   color: #000;
 }
-.latest-funding-fund-amt{
- font-weight: bold;
+
+.funding_background {
+  background: #fffaf8;
 }
-.latest-funding-fund-seed{
+.latest-funding-fund-amt {
+  font-weight: bold;
+}
+.latest-funding-fund-seed {
   font-size: 12px;
 }
-.latest-funding-info{
+.latest-funding-info {
   padding: 16px;
-  border-bottom:#ffccc3 solid 1px;
+  border-bottom: #ffccc3 solid 1px;
 }
-.latest-funding-info-links{
-  background: #FFFAF8;
+.latest-funding-info-links {
   margin: 0 13px 6.5px 0;
   color: #555;
 }
-.latest-funding-paragraph{
-  background: #FFFAF8;
+.paragraph_wrapper {
+  padding: 16px;
+}
+.latest-funding-paragraph {
   color: #555;
   font-size: 12px;
-  padding: 16px;
+}
+
+.funding_place_link {
+  font-size: 12px;
+  color: #aaa;
 }
