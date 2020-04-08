@@ -17,7 +17,9 @@ body {
 .abel,
 .navbar_links,
 .apps_link,
-.section {
+.section,
+.footer_links,
+.low_footer {
   font-family: "Abel", sans-serif;
 }
 
@@ -36,7 +38,8 @@ a {
   text-decoration: none;
 }
 
-.white {
+.white,
+.footer_social_link {
   color: #fff;
 }
 
@@ -469,4 +472,52 @@ a {
 
 .section_list a {
   color: #555;
+}
+
+.small_price {
+  text-decoration: line-through;
+  font-size: 13px;
+}
+
+.big_price {
+  color: #555;
+  font-size: 16px;
+}
+
+.top_footer {
+  display: flex;
+  flex-direction: column;
+  padding: 42px 0px 28px;
+  background: #555;
+  color: #aaa;
+}
+
+.top_footer a {
+  color: #aaa;
+}
+
+.social,
+.footer_links {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_social_wrapper {
+  border-radius: 50%;
+  background: #333;
+  padding: 12px;
+}
+
+.low_footer {
+  color: #aaa;
+  font-size: 13px;
+  padding: 39px 0;
+  background: #000;
+  display: flex;
+  justify-content: center;
+}
+
+.heart {
+  color: #ff4422;
 }
