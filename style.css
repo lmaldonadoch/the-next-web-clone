@@ -204,7 +204,8 @@ a {
 }
 
 .latest_news_wrapper,
-.latest_funding {
+.latest_funding
+.sections {
   width: 95%;
   margin: 0 auto;
 }
@@ -221,7 +222,8 @@ a {
 }
 
 .latest_news_grid,
-.latest_funding_grid {
+.latest_funding_grid,
+.sections_grid {
   display: grid;
   grid-template: repeat(auto-fill, minmax(112px, auto)) / repeat(
       auto-fill,
@@ -358,4 +360,25 @@ a {
 .funding_place_link {
   font-size: 12px;
   color: #aaa;
+}
+.section_item{
+  max-width: 392px;
+  width: calc(33.33%-48px);
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  border: solid 1px green;
+}
+.section_title{
+  
+  margin-bottom: 20px;
+}
+.item_title{
+  font-size: 28px;
+  color: #ff4422;
+}
+.section_image_info{
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/zoombombing-796x419.png)
+    center no-repeat;
+  background-size: contain;
 }
