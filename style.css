@@ -321,7 +321,8 @@ a {
   margin: -30px 0 0 10px;
 }
 
-.latest_funding_image img {
+.latest_funding_image img,
+. {
   width: 60px;
   height: 60px;
 }
@@ -405,4 +406,25 @@ a {
 
 .section_author {
   font-size: 12px;
+}
+.section_latest{
+  background-color: #FFF4F2;
+  padding: 10px 14px 0 10px;
+}
+.section_latest_title{
+  color: #ff4422;
+  font-size: 13px;
+}
+.section_latest_link a{
+  color: #ff4422;
+  font-size: 14px;
+}
+
+.section_latest_image{
+  position: absolute;
+}
+
+.section_latest_image {
+  width: 70px;
+  height: 70px;
 }
