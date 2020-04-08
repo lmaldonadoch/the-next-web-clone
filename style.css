@@ -284,6 +284,7 @@ a {
   font-size: 16px;
   white-space: nowrap;
   align-self: flex-end;
+  justify-self: flex-end;
 }
 
 .latest_funding_header {
@@ -310,4 +311,38 @@ a {
 .latest_funding_image img {
   width: 60px;
   height: 60px;
+}
+/* .latest_funding_item a{
+  color: #000;
+} */
+.item_title{
+  color: #fff;
+  
+}
+.font-18{
+  font-size: 18px;
+}
+.black{
+  color: #000;
+}
+.latest-funding-fund-amt{
+ font-weight: bold;
+}
+.latest-funding-fund-seed{
+  font-size: 12px;
+}
+.latest-funding-info{
+  padding: 16px;
+  border-bottom:#ffccc3 solid 1px;
+}
+.latest-funding-info-links{
+  background: #FFFAF8;
+  margin: 0 13px 6.5px 0;
+  color: #555;
+}
+.latest-funding-paragraph{
+  background: #FFFAF8;
+  color: #555;
+  font-size: 12px;
+  padding: 16px;
 }
