@@ -16,13 +16,15 @@ body {
 
 .abel,
 .navbar_links,
-.apps_link {
+.apps_link,
+.section {
   font-family: "Abel", sans-serif;
 }
 
 .main_article_link,
 .main_article_side_link,
-..latest_news_title {
+.latest_news_title,
+.section_link_text {
   font-family: "Open Sans", sans-serif;
 }
 
@@ -32,6 +34,10 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.white {
+  color: #fff;
 }
 
 .top_navbar {
@@ -204,7 +210,7 @@ a {
 }
 
 .latest_news_wrapper,
-.latest_funding
+.latest_funding,
 .sections {
   width: 95%;
   margin: 0 auto;
@@ -361,7 +367,7 @@ a {
   font-size: 12px;
   color: #aaa;
 }
-.section_item{
+.section_item {
   max-width: 392px;
   width: calc(33.33%-48px);
   display: flex;
@@ -369,16 +375,34 @@ a {
   height: auto;
   border: solid 1px green;
 }
-.section_title{
-  
-  margin-bottom: 20px;
+.section_title {
+  margin-bottom: 30px;
 }
-.item_title{
-  font-size: 28px;
-  color: #ff4422;
-}
-.section_image_info{
-  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/zoombombing-796x419.png)
+
+.section_image_info {
+  position: relative;
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Artboard-2@2x-100-368x276.jpg)
     center no-repeat;
-  background-size: contain;
+  background-size: cover;
+  height: 18.35vw;
+  max-height: 274px;
+}
+
+.image_gradient {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  padding: 0 15px 15px 15px;
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 1) 90%);
+}
+
+.section_link {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px 0 10px 0;
+}
+
+.section_author {
+  font-size: 12px;
 }
