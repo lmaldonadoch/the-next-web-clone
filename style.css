@@ -206,8 +206,12 @@ a {
 .latest_news_wrapper {
   width: 95%;
   margin: 0 auto;
-}
 
+}
+.latest_news_title_container{
+  grid-column: 1/-1;
+  align-self: flex-end;
+}
 .latest_news_title {
   color: red;
   font-size: 28px;
@@ -240,9 +244,13 @@ a {
 }
 
 .latest_news_info {
-  width: 75%;
+  width: 90%;
+  margin: 0 auto;
+  line-height: 20px;
 }
-
+.latest_news_link_container{
+  margin-bottom: 5px;
+}
 .latest_new_item a {
   font-size: 16px;
   font-weight: bold;
@@ -254,4 +262,11 @@ a {
   font-size: 13px;
   color: #aaa;
   font-weight: 400;
+}
+
+.latest_funding_header{
+  color: red;
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-weight: bolder;
 }
