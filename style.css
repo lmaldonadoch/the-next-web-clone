@@ -19,7 +19,14 @@ body {
   height: auto;
 }
 
-.latest_news_title, .latest_funding_title, .latest_funding_header, .right_links, .right_links a, .section_latest_title, .section_latest_link a, .latest_deals_see_all_deals, .heart, .menu_button, .circle {
+.latest_news_title,
+.latest_funding_title,
+.latest_funding_header,
+.right_links,
+.right_links a,
+.section_latest_title,
+.section_latest_link a,
+.latest_deals_see_all_deals, .heart, .menu_button, .circle {
   color: #ff4422;
 }
 
