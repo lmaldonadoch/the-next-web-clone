@@ -711,4 +711,26 @@ footer {
     width: 75px;
     height: 65px;
   }
+  .right_links_line{
+    display: none;
+  }
+  .right_links{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    line-height: 25px;
+  }
+  .latest_funding_item,
+  .section_item{
+    grid-column: 1/-1;
+    max-width: 100%;  
+  }
+  .section_image_info{
+    max-height: 1500px;
+    height: 460px;
+  }
+  .section_latest_image{
+    float: right;
+    margin-right: -12px;
+  }
 }
