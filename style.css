@@ -110,7 +110,8 @@ a {
   padding: 0 5px;
 }
 
-.search_button, .menu_button {
+.search_button,
+.menu_button {
   border: none;
   border-left: rgb(198, 198, 198) solid 1px;
   background: rgba(198, 198, 198, 0.1);
