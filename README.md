@@ -1,16 +1,16 @@
 # The Next Web: Responsive design
 
-> In this project we worked on making a whole website respoonsive. We worked on the responsive elements we had seen previously such as Grid and Flexbox and we included Media Queries to be able to make the website look exactly as we wanted for different screen sizes. We als worked with background images and gradients to a very complete project that includes all the knowledge previously acquired.
+> In this project we worked on making a whole website respoonsive. We worked on the responsive elements we had seen previously such as Grid and Flexbox and we included Media Queries to be able to make the website look exactly as the original for different screen sizes. We also worked with background images and gradients to build a very complete project that includes all the knowledge previously acquired.
 
-![screenshot](https://github.com/Jmagero/smashing-magazine/blob/develop/images/screenshot1.png)
+![screenshot]
 
-![screenshot](https://github.com/Jmagero/smashing-magazine/blob/develop/images/screenshot2.png)
+![screenshot]
 
-![screenshot](https://github.com/Jmagero/smashing-magazine/blob/develop/images/screenshot3.png)
+![screenshot]
 
-![screenshot](https://github.com/Jmagero/smashing-magazine/blob/develop/images/screenshot4.png)
+![screenshot]
 
-The original website includes a "Sticky Navbar" That we were unable to reproduce since we did not use any Javascript. Also the Navbar on the 767
+The original website includes a "Sticky Navbar" That we were unable to reproduce since we did not use any Javascript. Also the Navbar on the 767px breakpoint, which is fixed, has a black piece that desappears on scroll; again, we were unable to do that but we did make it fix, it is just that the rectange will not go away.
 
 ## Built With
 
@@ -19,7 +19,6 @@ The original website includes a "Sticky Navbar" That we were unable to reproduce
 - Google fonts
 - Font Awesome
 
-
 ## Getting Started
 
 To get a local copy of the repository please run the following commands on your terminal:
@@ -27,23 +26,24 @@ To get a local copy of the repository please run the following commands on your 
 ```
 $ cd <folder>
 ```
+
 ```
-$ git clone https://github.com/Jmagero/smashing-magazine
+$ git clone git@github.com:lmaldonadoch/the-next-web-clone.git
 ```
 
 ## Authors
 
-👤 **Luis Angel Maldonado**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://www.linkedin.com/in/luis-angel-maldonado-5b503a1a3/)
-
 👤 **Jocyline Magero**
 
 - Github: [@githubhandle](https://github.com/Jmagero)
-- Twitter: [@twitterhandle](https://twitter.com/LuisAngelMCh)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+
+👤 **Luis Angel Maldonado**
+
+- Github: [@lmaldonadoch](https://github.com/lmaldonadoch)
+- Twitter: [@LuisAngelMCh](https://twitter.com/LuisAngelMCh)
+- Linkedin: [linkedin](https://www.linkedin.com/in/luis-angel-maldonado-5b503a1a3/)
 
 ## 🤝 Contributing
 
