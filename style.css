@@ -448,8 +448,11 @@ a {
   margin: 5px 0 10px 0;
 }
 
-.section_author {
+.section_author,
+.section_author a {
+  font-weight: 400px;
   font-size: 12px;
+  color: rgba(255, 255, 255, 0.6);
 }
 .section_latest {
   background-color: #fff4f2;
@@ -504,6 +507,11 @@ a {
   color: #555;
 }
 
+.latest_deals_see_all_deals {
+  float: right;
+  color: #ff4422;
+}
+
 .small_price {
   text-decoration: line-through;
   font-size: 13px;
@@ -543,6 +551,10 @@ footer {
 }
 .footer_social_container {
   margin: 0 0.5% 20px;
+}
+
+.footer_social_container:hover {
+  cursor: pointer;
 }
 .footer_links_wrapper {
   padding: 0 10px;
@@ -711,26 +723,51 @@ footer {
     width: 75px;
     height: 65px;
   }
-  .right_links_line{
+  .right_links_line {
     display: none;
   }
-  .right_links{
+  .right_links {
     display: flex;
     flex-direction: column;
     margin: 10px 0;
     line-height: 25px;
   }
   .latest_funding_item,
-  .section_item{
+  .section_item {
     grid-column: 1/-1;
-    max-width: 100%;  
+    max-width: 100%;
   }
-  .section_image_info{
+  .section_image_info {
     max-height: 1500px;
     height: 460px;
   }
-  .section_latest_image{
+  .section_latest_image {
     float: right;
     margin-right: -12px;
+  }
+
+  .latest_news_info {
+    margin-left: 20px;
+  }
+
+  .low_footer_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    line-height: 20px;
+  }
+
+  .low_footer_logo {
+    margin-right: -50px;
+  }
+
+  .footer_text_section1 {
+    margin-left: 50px;
+  }
+
+  .low_footer_image {
+    margin: 45px 0 0 -75px;
   }
 }
