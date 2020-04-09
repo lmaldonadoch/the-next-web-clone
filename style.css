@@ -181,7 +181,7 @@ body {
 }
 
 .main_article_gradient {
-  background: radial-gradient(circle at top left,rgba(255, 0, 0, 0.6) -5%,rgba(0, 0, 0, 0.8));
+  background: radial-gradient(circle at top left, rgba(255, 0, 0, 0.6) -5%, rgba(0, 0, 0, 0.8));
   display: flex;
   justify-content: stretch;
   height: 100%;
@@ -345,6 +345,7 @@ body {
   margin-bottom: 30px;
   font-weight: bolder;
   grid-column: 1/-2;
+  align-self: flex-end;
 }
 
 .right_links,
@@ -352,10 +353,6 @@ body {
   white-space: nowrap;
   align-self: flex-end;
   justify-self: flex-end;
-}
-
-.latest_funding_header {
-  align-self: flex-end;
 }
 
 .item_title {
@@ -434,7 +431,7 @@ body {
 
 .section_item {
   min-width: 332px;
-  width: calc(33.33%-40px);
+  width: calc(33.33% - 40px);
   max-width: 392px;
   display: flex;
   flex-direction: column;
