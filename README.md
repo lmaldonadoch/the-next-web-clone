@@ -2,13 +2,11 @@
 
 > In this project we worked on making a whole website respoonsive. We worked on the responsive elements we had seen previously such as Grid and Flexbox and we included Media Queries to be able to make the website look exactly as the original for different screen sizes. We also worked with background images and gradients to build a very complete project that includes all the knowledge previously acquired.
 
-![screenshot]
+![screenshot](images/screenshot1.png)
 
-![screenshot]
+![screenshot](images/screenshot2.png)
 
-![screenshot]
-
-![screenshot]
+![screenshot](images/screenshot3.png)
 
 The original website includes a "Sticky Navbar" That we were unable to reproduce since we did not use any Javascript. Also the Navbar on the 767px breakpoint, which is fixed, has a black piece that desappears on scroll; again, we were unable to do that but we did make it fix, it is just that the rectange will not go away.
 
