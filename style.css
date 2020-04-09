@@ -651,7 +651,7 @@ footer {
   }
 
   .navbar_logo {
-    padding-top: -100px;
+    padding: 16px 20px;
   }
 
   .navbar_stripe {
@@ -667,16 +667,34 @@ footer {
     height: 31px;
     background: #000;
     color: rgba(255, 255, 255, 0.6);
-    margin: 1px 0 0 -18px;
+    margin: 15px 0 0 -19px;
     font-size: 14px;
     text-align: center;
     padding-top: 8px;
   }
-
   .header {
     display: flex;
     flex-direction: column;
-    height: 561px;
+    height: 100vh;
+    width: 100%;
     justify-content: space-between;
+    margin-top: 0;
   }
+  .main_article_big,
+  .main_article_side{
+    height: 33.3%;
+    line-height: 5px;
+    margin-bottom: 5px;
+  }
+  .main_article_side{
+    margin: 5px 0;
+  }
+  .main_article_big a,
+  .main_article_side a{
+    font-size: 1rem;
+  }
+  .date{
+    display: none;
+  }
+
 }
