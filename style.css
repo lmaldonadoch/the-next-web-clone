@@ -12,6 +12,7 @@ nav ul li {
 
 body {
   font-family: "Lato", sans-serif;
+  height: auto;
 }
 
 .abel,
@@ -101,8 +102,8 @@ a {
   grid-gap: 10px;
   width: calc(100% - 10px);
   margin: 5px auto 100px auto;
-  height: 42vw;
-  max-height: 47vh;
+  height: 43vw;
+  max-height: 31vw;
 }
 
 .main_article_gradient {
@@ -121,8 +122,6 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%;
-  width: 100%;
 }
 
 .main_article_big {
@@ -134,8 +133,6 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%;
-  width: 100%;
 }
 
 .date {
@@ -160,6 +157,8 @@ a {
 .main_article_logo_image {
   width: 33vw;
   margin: 20px 20px;
+  max-height: 96px;
+  max-width: 400px;
 }
 
 .date {
@@ -181,8 +180,8 @@ a {
 .main_article_footer a,
 .main_article_footer i {
   color: rgba(255, 255, 255, 0.6);
-  margin: 10px 0 1px;
-  font-size: 0.9rem;
+  margin: 0.5rem 0 1px;
+  font-size: 0.8rem;
 }
 
 .box_2,
@@ -190,10 +189,16 @@ a {
   padding: 10px 20px;
 }
 
+.box_2 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
 .main_article_side {
   display: flex;
   justify-content: stretch;
-  font-size: 1.6rem;
+  font-size: 1rem;
   color: #fff;
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/zoombombing-796x419.png)
     center no-repeat;
