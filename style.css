@@ -1,8 +1,6 @@
-.sticky{
+.sticky {
   width: 100%;
-
 }
-
 
 .top_navbar,
 .navbar {
@@ -20,6 +18,55 @@ nav ul li {
 body {
   font-family: "Lato", sans-serif;
   height: auto;
+}
+
+.latest_news_title,
+.latest_funding_title,
+.latest_funding_header,
+.right_links,
+.right_links a,
+.section_latest_title,
+.section_latest_link a,
+.latest_deals_see_all_deals,
+.heart,
+.menu_button,
+.circle {
+  color: #ff4422;
+}
+
+.latest_new_item a,
+.fa-tag,
+.fa-briefcase,
+.black {
+  color: #000;
+}
+
+.item_title,
+.white,
+.footer_social_link,
+.date,
+.main_article_big a,
+.main_article_side a,
+.main_article_side {
+  color: #fff;
+}
+
+.item_title,
+.big_price,
+.latest_new_item a,
+.right_links,
+.right_links a {
+  font-size: 16px;
+}
+
+.section_latest_title,
+.section_list,
+.small_price,
+.low_footer_wrapper,
+.top_navbar_links,
+.latest_news_author,
+.latest_news_author a {
+  font-size: 13px;
 }
 
 .abel,
@@ -47,11 +94,6 @@ a {
   text-decoration: none;
 }
 
-.white,
-.footer_social_link {
-  color: #fff;
-}
-
 .top_navbar {
   background: #000;
   justify-content: space-between;
@@ -60,7 +102,6 @@ a {
 
 .top_navbar_links {
   color: #c6c6c6;
-  font-size: 13px;
   padding: 0 5px;
 }
 
@@ -120,7 +161,6 @@ a {
 
 .menu_button {
   display: none;
-  color: #ff4422;
 }
 
 .navbar_stripe {
@@ -170,13 +210,7 @@ a {
 }
 
 .date {
-  color: #fff;
   padding: 5px 20px 0 0;
-}
-
-.main_article_big a,
-.main_article_side a {
-  color: #fff;
 }
 
 .box_1 {
@@ -233,7 +267,6 @@ a {
   display: flex;
   justify-content: stretch;
   font-size: 1rem;
-  color: #fff;
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/zoombombing-796x419.png)
     center no-repeat;
   background-size: cover;
@@ -268,7 +301,6 @@ a {
 }
 .latest_news_title,
 .latest_funding_title {
-  color: red;
   font-size: 28px;
   margin-bottom: 30px;
   font-weight: bolder;
@@ -308,20 +340,16 @@ a {
   margin-bottom: 5px;
 }
 .latest_new_item a {
-  font-size: 16px;
   font-weight: bold;
-  color: #000;
 }
 
 .latest_news_author,
 .latest_news_author a {
-  font-size: 13px;
   color: #aaa;
   font-weight: 400;
 }
 
 .latest_funding_header {
-  color: red;
   font-size: 28px;
   margin-bottom: 30px;
   font-weight: bolder;
@@ -333,8 +361,6 @@ a {
 
 .right_links,
 .right_links a {
-  color: red;
-  font-size: 16px;
   white-space: nowrap;
   align-self: flex-end;
   justify-self: flex-end;
@@ -345,7 +371,6 @@ a {
 }
 
 .item_title {
-  font-size: 16px;
   padding: 11px 16px 11px 84px;
   background: #ff4422;
 }
@@ -366,20 +391,12 @@ a {
   height: 60px;
 }
 .fa-tag,
-.fa-briefcase{
-  color: #000;
+.fa-briefcase {
   margin-right: 10px;
-}
-.item_title {
-  color: #fff;
 }
 
 .font-18 {
   font-size: 18px;
-}
-
-.black {
-  color: #000;
 }
 
 .funding_background {
@@ -474,27 +491,18 @@ a {
   max-height: 90px;
   flex-wrap: wrap;
 }
-.section_latest_title {
-  color: #ff4422;
-  font-size: 13px;
-}
 
 .section_latest_link {
   margin-top: 5px;
   max-width: 70%;
 }
 .section_latest_link a {
-  color: #ff4422;
   font-size: 14px;
 }
 
 .section_latest_image {
   width: 70px;
   height: 70px;
-}
-
-.section_list {
-  font-size: 13px;
 }
 
 .section_list li {
@@ -506,7 +514,6 @@ a {
 }
 
 .circle {
-  color: #ff4422;
   font-size: 10px;
   margin-right: 10px;
 }
@@ -521,17 +528,14 @@ a {
 
 .latest_deals_see_all_deals {
   float: right;
-  color: #ff4422;
 }
 
 .small_price {
   text-decoration: line-through;
-  font-size: 13px;
 }
 
 .big_price {
   color: #555;
-  font-size: 16px;
 }
 footer {
   margin-top: 50px;
@@ -574,7 +578,6 @@ footer {
 
 .low_footer_wrapper {
   color: #aaa;
-  font-size: 13px;
   padding: 39px 0;
   background: #000;
   display: flex;
@@ -583,10 +586,6 @@ footer {
 
 .low_footer_text {
   margin-right: 5px;
-}
-
-.heart {
-  color: #ff4422;
 }
 
 @media screen and (max-width: 1023px) {
@@ -640,15 +639,15 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
-  body{
+  body {
     padding-top: 108px;
   }
-  .sticky{
+  .sticky {
     position: fixed;
     top: 0;
     left: 0;
   }
-  
+
   .top_navbar {
     display: none;
   }
