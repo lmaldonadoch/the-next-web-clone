@@ -1,4 +1,11 @@
-nav {
+.sticky{
+  width: 100%;
+
+}
+
+
+.top_navbar,
+.navbar {
   display: flex;
 }
 
@@ -108,6 +115,7 @@ a {
   background: rgba(198, 198, 198, 0.1);
   color: rgb(198, 198, 198);
   width: 48px;
+  height: 100%;
 }
 
 .menu_button {
@@ -357,7 +365,11 @@ a {
   width: 60px;
   height: 60px;
 }
-
+.fa-tag,
+.fa-briefcase{
+  color: #000;
+  margin-right: 10px;
+}
 .item_title {
   color: #fff;
 }
@@ -628,6 +640,15 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
+  body{
+    padding-top: 108px;
+  }
+  .sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
   .top_navbar {
     display: none;
   }
