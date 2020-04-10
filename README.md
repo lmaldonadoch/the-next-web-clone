@@ -38,7 +38,7 @@ $ git clone git@github.com:lmaldonadoch/the-next-web-clone.git
 👤 **Jocyline Magero**
 
 - Github: [@githubhandle](https://github.com/Jmagero)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- Twitter: [@twitterhandle](https://twitter.com/CelynMagz)
 - Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
 👤 **Luis Angel Maldonado**

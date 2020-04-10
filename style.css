@@ -639,6 +639,7 @@ footer {
 
   .sticky {
     position: fixed;
+    z-index: 2;
     top: 0;
     left: 0;
   }
@@ -753,7 +754,8 @@ footer {
   .latest_funding_item,
   .section_item {
     grid-column: 1/-1;
-    max-width: 100%;
+    max-width: 767px;
+    width: 100%;
   }
 
   .section_image_info {
