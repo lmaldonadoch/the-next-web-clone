@@ -605,6 +605,11 @@ footer {
     display: none;
   }
 
+  .section_item {
+    max-width: 500px;
+    width: 100%;
+  }
+
   .sections {
     margin-top: 50px;
   }
