@@ -738,11 +738,16 @@ footer {
     display: flex;
     flex-direction: row;
     max-width: 100%;
+    margin-left: 4px;
+  }
+
+  .latest_news_grid{
+    row-gap: 10px;
   }
 
   .latest_new_item img {
     width: 75px;
-    height: 65px;
+    height: 67px;
   }
 
   .right_links_line {
